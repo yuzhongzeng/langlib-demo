@@ -1,0 +1,12 @@
+/* 屏幕宽度在340px至410px时，基准尺寸使用20px */
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/* body默认样式 */
+body {
+  font-size: 14px;
+  background: #f8f8f8;
+}

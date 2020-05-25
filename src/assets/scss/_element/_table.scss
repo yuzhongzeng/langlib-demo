@@ -1,0 +1,78 @@
+$number: 2px;
+
+.bc {
+  // table字体颜色
+  .el-table {
+    font-size: 13px;
+    color: #111a51;
+  }
+  .el-table thead {
+    font-size: 16px;
+    color: #111a51;
+  }
+
+  // table边框
+  .el-table::before {
+    height: 0px;
+  }
+
+  .el-table tr:last-child td {
+    border-bottom: $number solid transparent;
+  }
+
+  .el-table td,
+  .el-table th {
+    padding: 10px 0;
+  }
+
+  .el-table--border th,
+  .el-table__fixed-right-patch {
+    border-bottom: $number solid #f3f3f6;
+  }
+
+  .el-table th {
+    border-right: $number solid #f3f3f6;
+    &:nth-last-child(2) {
+      border-right: $number solid transparent;
+    }
+  }
+  .el-table td {
+    border-right: $number solid #f3f3f6;
+    &:last-child {
+      border-right: $number solid transparent;
+    }
+  }
+
+  .el-table td,
+  .el-table th.is-leaf {
+    border-bottom: $number solid #f3f3f6;
+  }
+
+  .el-table--border,
+  .el-table--group {
+    border: $number solid transparent;
+  }
+  .el-table--border {
+    border-right: none;
+    border-bottom: none;
+  }
+  // 多级表头
+  .el-table--border::after,
+  .el-table--group::after {
+    width: 0;
+  }
+  .bc-table--group .el-table thead.is-group th {
+    border-right: $number solid #f3f3f6;
+  }
+  .bc-table--group .el-table thead.is-group tr:first-child th {
+    &:nth-last-child(2) {
+      border-right: $number solid transparent;
+    }
+  }
+
+  // 表格滚动样式
+  .el-table--scrollable-x .el-table__body-wrapper {
+    overflow-x: auto;
+    @include scroll-bar(5px);
+  }
+}

@@ -1,0 +1,53 @@
+.fi-btn {
+  display: inline-block;
+  padding: 0 20px;
+  line-height: 34px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  background-color: #ff6f20;
+  transition: 0.2s linear;
+  & + & {
+    margin-left: 10px;
+  }
+  &--small {
+    padding: 0 10px;
+    line-height: 24px;
+    font-size: 13px;
+    border: 2px solid transparent;
+  }
+  &--default {
+    background-color: #111a51;
+    &:hover {
+      border-color: #111a51;
+      color: #111a51;
+      background-color: #fff;
+    }
+  }
+  &--primary {
+    background-color: #fa6d20;
+    &:hover {
+      border-color: #fa6d20;
+      color: #fa6d20;
+      background-color: #fff;
+    }
+  }
+  &--warning {
+    background-color: #ffb800;
+    &:hover {
+      border-color: #ffb800;
+      color: #ffb800;
+      background-color: #fff;
+    }
+  }
+  &--secondary {
+    background-color: #c1c3d0;
+    &:hover {
+      border-color: #c1c3d0;
+      color: #c1c3d0;
+      background-color: #fff;
+    }
+  }
+}

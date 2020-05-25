@@ -1,0 +1,54 @@
+.bc {
+  .el-dialog {
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  .el-dialog__header {
+    padding: 20px;
+    background-color: #f3f3f6;
+  }
+  .el-dialog__footer {
+    padding: 20px;
+    border-top: 1px solid #f3f3f6;
+  }
+
+  .dialog-title {
+    line-height: 20px;
+    font-size: 18px;
+    color: #111a51;
+    text-align: left;
+    font-weight: bold;
+  }
+  .dialog-body {
+    .el-form {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .el-form-item {
+        flex-basis: 32%;
+      }
+    }
+    .el-form-item__label {
+      font-size: 16px;
+      color: #111a51;
+    }
+    .el-input__inner {
+      border-width: 0 0 1px 0;
+      padding: 0;
+      border-radius: 0;
+      font-size: 13px;
+      color: #111a51;
+    }
+  }
+
+  .dialog-footer {
+    .btn-group {
+      .bc-btn {
+        padding: 0 50px;
+      }
+      .bc-btn + .bc-btn {
+        margin-left: 20px;
+      }
+    }
+  }
+}

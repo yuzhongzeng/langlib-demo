@@ -1,0 +1,18 @@
+.fi-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  &__left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  &__right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+}

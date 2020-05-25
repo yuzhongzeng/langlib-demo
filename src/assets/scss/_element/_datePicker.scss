@@ -1,0 +1,11 @@
+.bc {
+  .el-date-editor .el-range-input,
+  .el-date-editor .el-range-separator {
+    font-size: 13px;
+  }
+
+  .el-date-editor .el-range-separator {
+    padding: 0;
+    line-height: 30px;
+  }
+}

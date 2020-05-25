@@ -1,0 +1,43 @@
+.bc {
+  .el-pager li {
+    min-width: 25px;
+    font-size: 12px;
+    background-color: transparent;
+  }
+  .el-pagination .btn-next,
+  .el-pagination .btn-prev {
+    background: center center no-repeat transparent;
+  }
+
+  .el-pagination .el-input__inner {
+    font-size: 12px;
+    border: 1px solid transparent;
+  }
+
+  .el-pagination button,
+  .el-pagination span:not([class*="suffix"]) {
+    font-size: 12px;
+  }
+  .el-pagination__editor.el-input .el-input__inner {
+    height: 20px;
+  }
+  .el-pagination__editor.el-input {
+    width: 30px;
+  }
+  .el-pagination__sizes .el-input .el-input__inner {
+    font-size: 12px;
+    padding-left: 8px;
+  }
+
+  // 指向时的input框的边框颜色
+  .el-pagination__sizes .el-input .el-input__inner:hover {
+    border-color: transparent;
+  }
+
+  .el-pagination {
+    .el-input--mini .el-input__inner {
+      height: 20px;
+      line-height: 20px;
+    }
+  }
+}

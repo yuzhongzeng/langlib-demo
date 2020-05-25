@@ -1,0 +1,28 @@
+.fi-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  &__header {
+    flex-shrink: 0;
+    flex-grow: 0;
+    padding: 0 px2rem(15px);
+    line-height: px2rem(37px);
+    height: px2rem(38px);
+    border-bottom: 1px solid #e4e7eb;
+    background-color: #fff;
+  }
+  &__body {
+    flex: 1 1 auto;
+    padding: 0 px2rem(15px) px2rem(15px);
+  }
+  &__search {
+    margin-top: px2rem(15px);
+  }
+  &__main {
+    margin-top: px2rem(15px);
+    border: 1px solid #e4e7eb;
+    border-radius: px2rem(4px);
+    background-color: #fff;
+  }
+}

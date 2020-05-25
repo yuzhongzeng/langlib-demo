@@ -1,0 +1,19 @@
+.bc {
+  .el-select-dropdown {
+    border-radius: 10px;
+  }
+  .el-select-dropdown__list {
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 6px 0;
+  }
+  .el-select-dropdown__item {
+    height: 36px;
+    line-height: 36px;
+  }
+
+  .el-select .el-input__suffix {
+    right: 10px;
+    transition: all 0.3s;
+  }
+}

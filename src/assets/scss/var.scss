@@ -1,0 +1,17 @@
+@import "./fi-ui/var";
+
+$ff-base: "Microsoft Yahei", PingFangSC-Regular, Helvetica, arial, sans-serif;
+
+// 滚动条样式
+@mixin scroll-bar($width) {
+  &::-webkit-scrollbar {
+    width: $width;
+    height: $width;
+  }
+  &::-webkit-scrollbar-track-piece {
+    background-color: #dbdbdb;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #282154;
+  }
+}
